@@ -1,0 +1,231 @@
+@import url(reset.css);
+
+body {
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F15A24;
+    height: 80px;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+}
+
+.logo img {
+    width: 160px; 
+}
+
+.navbar ul {
+   
+    display: flex;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+
+.rigiser_login a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    margin-right: 20px;
+    
+}
+
+.banner img{
+    width: 100%;
+    height:560px;
+    margin-top: 80px;
+}
+
+.slogan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+.slogan > div {
+    text-align: center;
+    margin: 50px 20px 20px; 
+}
+.slogan img{
+    width: 80px;
+    height: 80px;
+    max-width: 100%;
+    margin-right: 20px;
+}
+.slogan1{
+    display: flex;
+    text-align: center;
+    align-items: flex-end;
+    border-right: 1px solid black;
+    padding-right: 25px;
+    
+  
+}
+
+.slogan1 p:first-child{
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #F15A24;
+   
+}
+.slogan1 p:last-child{
+    font-size: 16px;
+    
+}
+
+.slogan1:nth-child(4){
+    border-right: none;
+} 
+
+.news{
+    display: flex;
+    margin: 50px auto;
+    max-width: 600px;
+    height: 50px;
+    line-height: 50px;
+    justify-content: center;
+    align-items: center;
+    
+    font-size: 32px;
+    color: #F15A24;
+}
+
+.news p:first-of-type{
+    border-right: 1px solid black;
+    padding-right: 20px;
+}
+
+.news p:last-of-type{
+   
+    padding-left: 20px;
+}
+.news-images{
+   
+    text-align: center;
+    
+    margin: 0 auto;
+}
+.news-images img{
+    display: inline-block;
+    width: 500px;
+    height: 500px;
+   
+    margin: 30px 50px;
+}
+.hot{
+    display: flex;
+    margin: 50px auto;
+    max-width: 600px;
+    height: 50px;
+    line-height: 50px;
+    justify-content: center;
+    align-items: center;
+    
+    font-size: 32px;
+    color: #F15A24;
+}
+
+.hot p:first-of-type{
+    border-right: 1px solid black;
+    padding-right: 20px;
+}
+
+.hot p:last-of-type{
+   
+    padding-left: 20px;
+}
+
+.product{
+    width: 95%;
+    margin: 80px auto;
+    padding-left: 80px;
+    
+    /* border: 1px solid red; */
+
+}
+
+.product ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  
+    align-items: flex-start;
+}
+
+.product li{
+    margin: 0 10px 20px;
+   
+    flex-basis: 300px;
+    
+    flex: 0 0 calc(25% - 20px);
+   
+   
+}
+
+.product img{
+    width: 300px;
+    height: 300px;
+}
+
+.product .name_btn{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+}
+
+.product h3{
+    font-size: 22px;
+    margin: 5px 0px;
+}
+
+.product p{
+    font-size: 16px;
+}
+button{
+    border-radius: 20px;
+    background-color: #E3C062;
+    border: none;
+}
+.discount{
+    display: flex;
+    margin: 50px auto;
+    max-width: 600px;
+    height: 50px;
+    line-height: 50px;
+    justify-content: center;
+    align-items: center;
+    
+    font-size: 32px;
+    color: #F15A24;
+}
+
+.discount p:first-of-type{
+    border-right: 1px solid black;
+    padding-right: 20px;
+}
+
+.discount p:last-of-type{
+   
+    padding-left: 20px;
+}
+
+.discount-image {
+    display: block;
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+}
