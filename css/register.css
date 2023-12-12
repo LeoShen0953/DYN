@@ -1,0 +1,162 @@
+@import url(reset.css);
+
+body {
+    
+    font-family: 'Noto Serif TC', serif;
+}
+/*-----------首頁 導覽列----------*/
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F15A24;
+    height: 80px;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.logo img {
+    width: 160px; 
+}
+.logo a{
+    text-decoration: none;
+    color: white;
+}
+.navbar ul {
+   
+    display: flex;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+
+.rigiser_login a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    margin-right: 20px;
+    
+}
+h1{
+    font-size: 32px;
+    margin-top: 180px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.register_process ul{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+    
+}
+.register_process li{
+    margin-left: 30px;
+    
+    width: 50%;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+    
+    
+}
+.register_process p{
+    font-size: 32px;
+    text-align: center;
+    
+    
+}
+
+.register_process img{
+    display: block;
+   margin-right: 8px;
+    
+}
+
+h2{
+    font-size: 32px;
+    margin-top: 50px;
+   
+    margin-left: 350px;
+    
+}
+
+h3{
+    font-size: 28px;
+    margin-top: 50px;
+    margin-left: 350px;
+
+}
+.btn{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 10px;
+    width: 73%;
+    margin: 0 auto;
+}
+.btn input{
+    display: block;
+    width: 1140px;
+    height: 66px;
+    background-color: #D9D9D9;
+    margin: 50px auto;
+    margin-bottom: 80px;
+    border: none;
+    
+   
+}
+
+input::placeholder{
+    color: #6B6B6B;
+    font-size: 28px;
+    padding-left: 10px;
+}
+.btn button{
+    width: 230px;
+    height: 70px;
+    background-color: #E3C062;
+    border-radius: 30px;
+    border: none;
+    font-size: 24px;
+    margin-left: 60px;
+   
+    display: block;
+    font-weight: 600;
+ 
+}
+footer{
+
+    margin-top: 180px;
+    width: 100%;
+    height: 80px;
+    background-color: #F15A24;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+footer p{
+    font-size: 24px;
+    letter-spacing: 2px;
+    height: 18px;
+    line-height: 18px;
+    font-family: 'Noto Serif JP', serif;
+    color: white;
+    text-align: center;
+    
+}
+
