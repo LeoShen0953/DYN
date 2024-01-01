@@ -1,7 +1,9 @@
 @import url(reset.css);
-body{
+
+body {
     font-family: 'Noto Serif TC', serif;
 }
+
 .top {
     display: flex;
     align-items: center;
@@ -17,14 +19,16 @@ body{
 }
 
 .logo img {
-    width: 160px; 
+    width: 160px;
 }
-.logo a{
+
+.logo a {
     text-decoration: none;
     color: white;
 }
+
 .navbar ul {
-   
+
     display: flex;
 }
 
@@ -38,89 +42,102 @@ body{
     font-size: 22px;
 }
 
+.rigiser_login {
+    margin-right: 40px;
+}
+
 .rigiser_login a {
     text-decoration: none;
     color: white;
     font-size: 16px;
-    margin-right: 20px;
-    
+    padding-right: 10px;
+
 }
 
-h1{
+h1 {
     margin-top: 180px;
     font-size: 32px;
     width: 100%;
     text-align: center;
- 
-    
+
+
 }
-.wrapper{
+
+.wrapper {
     width: 100%;
-}    
-.faq{
+}
+
+.faq {
     margin-top: 120px;
     width: 100%;
 }
 
-.faq ul{
+.faq ul {
     display: flex;
     width: 100%;
     /* border: 1px solid blue; */
     margin: 0 auto;
 }
 
-.faq li{
+.faq li {
     flex: 1;
     height: 70px;
     background-color: #F15A24;
-    margin-left: 30px;   
+    margin-left: 30px;
     font-size: 24px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.faq li:nth-of-type(7){
+
+.faq li:nth-of-type(7) {
     margin-right: 30px;
 }
+
 .faq a {
     width: 100%;
     text-align: center;
     text-decoration: none;
     color: white;
-    
+
 }
 
-.faq li:first-of-type a{
+.faq li:first-of-type a {
     color: black;
 }
 
-.faq_detail{
+.faq_detail {
     width: 100%;
 }
-.faq_detail ul{
+
+.faq_detail ul {
     display: flex;
-    width:40%;
+    width: 40%;
     /* border: 1px solid blue; */
     margin: 0 auto;
     margin-top: 50px;
 }
 
-.faq_detail li{
+.faq_detail li {
     flex: 1;
     height: 70px;
-    margin-left: 30px;   
+
+    margin-left: 30px;
     font-size: 24px;
     display: flex;
     align-items: center;
     justify-content: center;
-   
+
 }
 
-.faq_detail a{
+.faq_detail a {
     color: black;
+    text-decoration: none;
+    width: 120px;
+    font-size: 18px;
 }
 
-.wrapper img{
+.wrapper img {
     width: 90%;
     display: block;
     margin: 0 auto;
@@ -128,28 +145,29 @@ h1{
 
 }
 
-.qa{
+.qa {
     width: 90%;
     height: 560px;
     background-color: #F15A24;
     margin: 0 auto;
-    margin-top:50px;
+    margin-top: 50px;
 }
 
-.qa h3{
+.qa h3 {
     font-size: 32px;
     color: white;
     margin: 0px 0px 30px 30px;
     padding-top: 40px;
 }
-.qa p{
+
+.qa p {
     font-size: 22px;
     color: white;
     margin: 5px 0px 5px 40px;
 }
 
 /*-----------首頁 關於力奧與地圖----------*/
-.about_map{
+.about_map {
     width: 100%;
     height: 440px;
     margin-top: 60px;
@@ -158,20 +176,22 @@ h1{
 
 }
 
-.about_map .about{
+.about_map .about {
     width: 50%;
     margin: 0 auto;
     height: 440px;
     background-color: #F15A24;
     margin-left: 20px;
-    
+
 }
-.about-top{
+
+.about-top {
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
 }
-.about-top h3{
+
+.about-top h3 {
     margin-top: 20px;
     font-size: 28px;
     height: 52px;
@@ -181,80 +201,89 @@ h1{
     font-family: 'Noto Serif JP', serif;
     font-weight: 400;
 }
-.about-top-social{
+
+.about-top-social {
     margin: 20px;
 
 }
-.about-top-social a{
-    color:white;
+
+.about-top-social a {
+    color: white;
     text-decoration: none;
 }
-.about-top-social a:first-of-type::before{
+
+.about-top-social a:first-of-type::before {
     content: '';
-    display: inline-block; 
-    width: 52px; 
-    height: 52px; 
-    margin: 0px 10px; 
-    background: url('../img/facebook.png'); 
+    display: inline-block;
+    width: 52px;
+    height: 52px;
+    margin: 0px 10px;
+    background: url('../img/facebook.png');
 }
-.about-top-social a:last-of-type::before{
+
+.about-top-social a:last-of-type::before {
     content: '';
-    display: inline-block; 
-    width: 52px; 
-    height: 52px; 
-    margin: 0px 10px; 
-    background: url('../img/line.png'); 
+    display: inline-block;
+    width: 52px;
+    height: 52px;
+    margin: 0px 10px;
+    background: url('../img/line.png');
 }
-.about-content{
+
+.about-content {
     display: flex;
     width: 100%;
     height: 80%;
     color: white;
 }
 
-.about-content-left{
+.about-content-left {
     width: 60%;
     margin-left: 20px;
     font-size: 18px;
 }
-.about-content-right{
+
+.about-content-right {
     width: 40%;
     height: 80%;
-    margin:0px 20px;
+    margin: 0px 20px;
     padding-left: 20px;
     border-left: 1px solid white;
     font-size: 18px;
-    
+
 }
-.about-content-right p{
+
+.about-content-right p {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
 }
-.map{
+
+.map {
     width: 49%;
     height: 100%;
     margin: 0;
     padding: 0;
     overflow: hidden;
     margin-left: 20px;
-    
+
 }
+
 iframe {
     width: 100%;
 }
 
 /*-----------首頁 頁尾----------*/
-footer{
+footer {
     width: 100%;
     height: 80px;
     background-color: #F15A24;
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
 }
 
-footer p{
+footer p {
     font-size: 24px;
     letter-spacing: 2px;
     height: 18px;
@@ -262,6 +291,5 @@ footer p{
     font-family: 'Noto Serif JP', serif;
     color: white;
     text-align: center;
-    
-}
 
+}

@@ -1,16 +1,40 @@
 <!DOCTYPE html>
 <html lang="zh-Hant">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>登入</title>
     <link rel="stylesheet" href="./css/login.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300&family=Noto+Serif+TC:wght@300&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300&family=Noto+Serif+TC:wght@300&display=swap"
+        rel="stylesheet">
 </head>
-<body>
-    <img src="./img/login-logo.png" alt="">
 
+<body>
+    <!--   導覽列 --->
+    <header class="top">
+        <div class="logo">
+            <a href="index.html"><img src="./img/logo.png" alt="Logo">回首頁</a>
+
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="allgoods.html">全部商品</a></li>
+                <li><a href="quotation.html">專人即時報價</a></li>
+                <li><a href="blog.html">文章BLOG</a></li>
+                <li><a href="faq.html">客服FAQ</a></li>
+            </ul>
+        </nav>
+        <div class="rigiser_login">
+            <a href="login.html"><i class="fas fa-chevron-right"></i>登入</a>
+            <a href="register.html"><i class="far fa-registered"></i>註冊</a>
+        </div>
+    </header>
+    <div class="biglogo">
+        <img src="./img/login-logo.png" alt="">
+    </div>
     <input type="text" placeholder="請填入會員信箱">
     <input type="text" placeholder="請填登入密碼">
 
@@ -18,25 +42,20 @@
         <button>登入</button>
         <a href="">忘記密碼?</a>
     </div>
-    <ul>
-        <li>
+    <div class="other-login">
+        <div class="other-login-content">
             <img src="./img/facebook.png" alt="">
-
-        </li>
-        <li>
             <p>或</p>
-
-        </li>
-        <li>
             <img src="./img/google.png" alt="">
+        </div>
 
-        </li>
 
-    </ul>
+    </div>
     <div class="not_register">
 
         <p>還不是會員嗎？</p>
         <a href="">立刻註冊新帳號</a>
     </div>
 </body>
+
 </html>

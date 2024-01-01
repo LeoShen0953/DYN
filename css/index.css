@@ -1,30 +1,39 @@
 @import url(reset.css);
 
 body {
-    
+
     font-family: 'Noto Serif TC', serif;
 }
+
 /*-----------首頁 導覽列----------*/
 .top {
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: #F15A24;
-    height: 80px;
+
     padding: 10px;
     position: fixed;
     width: 100%;
+    z-index: 1;
+}
+
+.top .fa {
+    display: none;
 }
 
 .logo img {
-    width: 160px; 
+    width: 160px;
+    margin: 5px;
 }
-.logo a{
+
+.logo a {
     text-decoration: none;
     color: white;
 }
+
 .navbar ul {
-   
+
     display: flex;
 }
 
@@ -38,64 +47,76 @@ body {
     font-size: 22px;
 }
 
+.rigiser_login {
+    margin-right: 40px;
+}
+
 .rigiser_login a {
     text-decoration: none;
     color: white;
     font-size: 16px;
-    margin-right: 20px;
-    
+    padding-right: 10px;
+
 }
+
 /*-----------首頁 banner----------*/
-.banner img{
+.banner img {
     width: 100%;
-    height:485px;
+    height: 485px;
     background-size: cover;
-    margin-top: 80px;
+    padding-top: 100px;
 }
+
 /*-----------首頁 商品口號----------*/
-.slogan{
+.slogan {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    
+    width: 95%;
+
 }
-.slogan > div {
+
+.slogan>div {
     text-align: center;
-    margin: 50px 20px 20px; 
+    margin: 50px 20px 20px;
 }
-.slogan img{
+
+.slogan img {
     width: 80px;
     height: 80px;
     max-width: 100%;
     margin-right: 20px;
 }
-.slogan1{
+
+.slogan1 {
     display: flex;
     text-align: center;
     align-items: flex-end;
     border-right: 1px solid black;
     padding-right: 25px;
-    
-  
+
+
 }
 
-.slogan1 p:first-child{
+.slogan1 p:first-child {
     font-size: 22px;
     margin-bottom: 15px;
     color: #F15A24;
-   
-}
-.slogan1 p:last-child{
-    font-size: 16px;
-    
+
 }
 
-.slogan1:nth-child(4){
+.slogan1 p:last-child {
+    font-size: 16px;
+
+}
+
+.slogan1:nth-child(4) {
     border-right: none;
-} 
+}
+
 /*-----------首頁 最新消息----------*/
-.news{
+.news {
     display: flex;
     margin: 50px auto;
     max-width: 600px;
@@ -103,39 +124,42 @@ body {
     line-height: 50px;
     justify-content: center;
     align-items: center;
-    
+
     font-size: 32px;
     color: #F15A24;
 }
 
-.news p:first-of-type{
+.news p:first-of-type {
     border-right: 1px solid black;
     padding-right: 20px;
 }
 
-.news p:last-of-type{
-   
+.news p:last-of-type {
+
     padding-left: 20px;
 }
-.news-images{
-   
+
+.news-images {
+
     text-align: center;
     width: 100%;
     margin: 0 auto;
 }
-.news-images img{
+
+.news-images img {
     display: inline-block;
     width: 30%;
     height: 500px;
     margin-right: 20px;
-   
+
 }
-.news-images img:nth-of-type(3){
+
+.news-images img:nth-of-type(3) {
     margin-right: 0;
 }
 
 /*-----------首頁 熱門商品----------*/
-.hot{
+.hot {
     display: flex;
     margin: 50px auto;
     max-width: 600px;
@@ -143,31 +167,31 @@ body {
     line-height: 50px;
     justify-content: center;
     align-items: center;
-    
+
     font-size: 32px;
     color: #F15A24;
 }
 
-.hot p:first-of-type{
+.hot p:first-of-type {
     border-right: 1px solid black;
     padding-right: 20px;
 }
 
-.hot p:last-of-type{
-   
+.hot p:last-of-type {
+
     padding-left: 20px;
 }
 
-.product{
+.product {
     width: 95%;
     margin: 80px auto;
     padding-left: 80px;
-    
-  
+
+
 
 }
 
-.product ul{
+.product ul {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -175,46 +199,50 @@ body {
     align-items: flex-start;
 }
 
-.product li{
+.product li {
     margin: 0 auto;
     margin: 0 20px 20px;
     flex-basis: 300px;
-    
+
     flex: 0 0 calc(25% - 40px);
-   
-   
+
+
 }
 
-.product li:nth-child(4) ,.product li:nth-child(8){
+.product li:nth-child(4),
+.product li:nth-child(8) {
     margin-right: 0px;
 }
-.product img{
-    
+
+.product img {
+
     width: 100%;
 }
 
-.product .name_btn{
+.product .name_btn {
     display: flex;
     width: 100%;
     justify-content: space-between;
 }
 
-.product h3{
+.product h3 {
     font-size: 22px;
     margin: 5px 0px;
 }
 
-.product p{
+.product p {
     font-size: 16px;
 }
-button{
+
+.product button {
     border-radius: 20px;
     background-color: #E3C062;
+    margin-top: 10px;
     border: none;
 }
 
 /*-----------首頁 折扣專區----------*/
-.discount{
+.discount {
     display: flex;
     margin: 50px auto;
     max-width: 600px;
@@ -222,18 +250,18 @@ button{
     line-height: 50px;
     justify-content: center;
     align-items: center;
-    
+
     font-size: 32px;
     color: #F15A24;
 }
 
-.discount p:first-of-type{
+.discount p:first-of-type {
     border-right: 1px solid black;
     padding-right: 20px;
 }
 
-.discount p:last-of-type{
-   
+.discount p:last-of-type {
+
     padding-left: 20px;
 }
 
@@ -245,7 +273,7 @@ button{
 }
 
 /*-----------首頁 關於力奧與地圖----------*/
-.about_map{
+.about_map {
     width: 100%;
     height: 440px;
     margin-top: 60px;
@@ -254,110 +282,120 @@ button{
 
 }
 
-.about_map .about{
+.about_map .about {
     width: 50%;
     margin: 0 auto;
     height: 440px;
     background-color: #F15A24;
     margin-left: 20px;
-    
+
 }
-.about-top{
+
+.about-top {
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
 }
-.about-top h3{
+
+.about-top h3 {
     margin-top: 20px;
     font-size: 28px;
     height: 52px;
     line-height: 52px;
     color: white;
     margin-left: 80px;
-    font-family: 'Noto Serif JP', serif;
+
     font-weight: 400;
 }
-.about-top-social{
+
+.about-top-social {
     margin: 20px;
 
 }
-.about-top-social a{
-    color:white;
+
+.about-top-social a {
+    color: white;
     text-decoration: none;
 }
-.about-top-social a:first-of-type::before{
+
+.about-top-social a:first-of-type::before {
     content: '';
-    display: inline-block; 
-    width: 52px; 
-    height: 52px; 
-    margin: 0px 10px; 
-    background: url('../img/facebook.png'); 
+    display: inline-block;
+    width: 52px;
+    height: 52px;
+    margin: 0px 10px;
+    background: url('../img/facebook.png');
 }
-.about-top-social a:last-of-type::before{
+
+.about-top-social a:last-of-type::before {
     content: '';
-    display: inline-block; 
-    width: 52px; 
-    height: 52px; 
-    margin: 0px 10px; 
-    background: url('../img/line.png'); 
+    display: inline-block;
+    width: 52px;
+    height: 52px;
+    margin: 0px 10px;
+    background: url('../img/line.png');
 }
-.about-content{
+
+.about-content {
     display: flex;
     width: 100%;
     height: 80%;
     color: white;
 }
 
-.about-content-left{
+.about-content-left {
     width: 60%;
     margin-left: 20px;
     font-size: 18px;
 }
-.about-content-right{
+
+.about-content-right {
     width: 40%;
     height: 80%;
-    margin:0px 20px;
+    margin: 0px 20px;
     padding-left: 20px;
     border-left: 1px solid white;
     font-size: 18px;
-    
+
 }
-.about-content-right p{
+
+.about-content-right p {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
 }
-.map{
+
+.map {
     width: 49%;
     height: 100%;
     margin: 0;
     padding: 0;
     overflow: hidden;
     margin-left: 20px;
-    
+
 }
+
 iframe {
     width: 100%;
 }
 
 /*-----------首頁 頁尾----------*/
-footer{
+footer {
     width: 100%;
     height: 80px;
     background-color: #F15A24;
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
 }
 
-footer p{
+footer p {
     font-size: 24px;
     letter-spacing: 2px;
     height: 18px;
     line-height: 18px;
-    font-family: 'Noto Serif JP', serif;
+
     color: white;
     text-align: center;
-    
-}
 
+}

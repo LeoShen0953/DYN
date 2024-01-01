@@ -7,14 +7,17 @@
     <title>Design Your Name</title>
     <link rel="stylesheet" href="./css/register.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300&family=Noto+Serif+TC:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/rwd.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300&family=Noto+Serif+TC:wght@300&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <!--   導覽列 --->
     <header class="top">
         <div class="logo">
-            <img src="./img/logo.png" alt="Logo">
+            <a href="index.html"><img src="./img/logo.png" alt="Logo">回首頁</a>
         </div>
         <nav class="navbar">
             <ul>
@@ -25,8 +28,8 @@
             </ul>
         </nav>
         <div class="rigiser_login">
-            <a href="login.html" target="_blank"><i class="fas fa-chevron-right"></i>登入</a>
-            <a href="register.html" target="_blank"><i class="far fa-registered"></i>註冊</a>
+            <a href="login.html"><i class="fas fa-chevron-right"></i>登入</a>
+            <a href="register.html"><i class="far fa-registered"></i>註冊</a>
         </div>
     </header>
     <H1>註冊</H1>
@@ -50,19 +53,21 @@
                 <p>完成註冊</p>
             </li>
         </ul>
-        <h2>驗證信箱</h2>
-        <h3>電子信箱</h3>
+        <div class="valid">
+            <h2>驗證信箱</h2>
+            <h3>電子信箱</h3>
+        </div>
         <div class="btn">
-        <input type="text" placeholder="請填入會員信箱">
+            <input type="text" placeholder="請填入會員信箱">
 
-        <button>寄送驗證信</button>
+            <button>寄送驗證信</button>
         </div>
 
-         
-        
+
+
         <!--  首頁頁尾 --->
         <footer>
             <p>本網站為緯育TibaMe【第89期】前端工程師專業技術養成班學員作品,僅供學習、展示之用途。</p>
-        </footer>  
-        
+        </footer>
+
     </div>

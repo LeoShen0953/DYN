@@ -1,17 +1,67 @@
 @import url(reset.css);
-body{
+
+body {
     font-family: 'Noto Serif TC', serif;
 }
 
-img{
+/*-----------首頁 導覽列----------*/
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F15A24;
+    height: 80px;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+
+
+
+}
+
+.logo img {
+    width: 160px;
+
+}
+
+.logo a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar ul {
+
+    display: flex;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+
+.rigiser_login a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    margin-right: 20px;
+
+}
+
+.biglogo {
     display: block;
     width: 30%;
     margin: 0 auto;
-    margin-top: 100px;
-   
+    padding-top: 120px;
+    /* border: 1px solid red; */
+
 }
 
-input{
+input {
     display: block;
     width: 1140px;
     height: 66px;
@@ -21,20 +71,21 @@ input{
 
 }
 
-input::placeholder{
+input::placeholder {
     color: #6B6B6B;
     font-size: 28px;
 }
 
-.btn_p{
+.btn_p {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    
-   
+
+
 }
-.btn_p button{
+
+.btn_p button {
     width: 230px;
     height: 70px;
     background-color: #E3C062;
@@ -42,41 +93,51 @@ input::placeholder{
     border: none;
     font-size: 24px;
     margin-left: 60px;
-   
+
 }
 
-.btn_p a{
+.btn_p a {
     text-decoration: none;
     color: black;
     margin-left: 20px;
     font-size: 24px;
 }
 
-ul{
-    display: flex;
+.other-login {
+
+
     width: 20%;
     margin: 0 auto;
     margin-bottom: 90px;
+    margin-top: 50px;
+
+
 }
 
-ul li{
-    width: 20%;
-    position: relative;
-    margin-left: 40px;
+.other-login-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
 }
-ul img{
+
+.other-login img {
     display: block;
     width: 32px;
-    
+    margin: 20px;
+
 }
-ul li p{
+
+.other-login li p {
     text-align: center;
     font-size: 24px;
-    position: absolute;
-    bottom: 0;
+    display: block;
+
     margin-left: 20px;
 }
-.not_register{
+
+.not_register {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -85,11 +146,12 @@ ul li p{
     margin-bottom: 50px;
 }
 
-.not_register p{
+.not_register p {
     font-size: 24px;
 
 }
-.not_register a{
+
+.not_register a {
     color: black;
     font-size: 24px;
 }
