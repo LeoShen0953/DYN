@@ -1,5 +1,6 @@
 @import url(reset.css);
 
+
 body {
     font-family: 'Noto Serif TC', serif;
 }
@@ -14,6 +15,10 @@ body {
     position: fixed;
     width: 100%;
     z-index: 1;
+}
+
+.top .fa {
+    display: none;
 }
 
 .logo img {
@@ -84,7 +89,7 @@ input::placeholder {
 .wrapper .search {
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 30%;
 
     align-self: flex-start;
     margin-top: 30px;
@@ -93,23 +98,29 @@ input::placeholder {
 }
 
 .wrapper .search h1 {
-    font-size: 32px;
+    font-size: 40px;
     margin: 40px;
+
+
+
 }
 
 .wrapper .search a {
     text-decoration: none;
-    font-size: 24px;
+    font-size: 32px;
+    height: auto;
+    line-height: 1;
     margin: 40px 56px;
     color: black;
 
+
 }
 
-.wrapper ul {
+.wrapper .goods {
     display: flex;
     flex-direction: column;
-    width: 80%;
-    position: relative;
+    width: 60%;
+
 
 }
 
@@ -117,6 +128,7 @@ input::placeholder {
     display: flex;
     margin: 20px 20px 60px 20px;
     width: 100%;
+
     border: 1px solid black;
 }
 
@@ -138,13 +150,13 @@ input::placeholder {
 
 
 .wrapper .left {
-    width: 30%;
-    margin: 30px 30px 30px 80px;
+    width: 50%;
+    margin: 30px 0px 30px 20px;
 
 }
 
 .wrapper .right {
-    width: 70%;
+    width: 40%;
     margin: 30px 30px 30px 30px;
     padding-top: 65px;
 }
@@ -160,8 +172,9 @@ input::placeholder {
 }
 
 .wrapper li .right input {
-    width: 80%;
-    height: 60px;
+
+    width: 300px;
+    height: 50px;
     border-radius: 20px;
     background-color: #F15A24;
     border: none;
@@ -189,7 +202,7 @@ input::placeholder {
     font-size: 22px;
 }
 
-.btn {
+#buy-btn {
 
     display: flex;
     justify-content: flex-end;
@@ -197,12 +210,11 @@ input::placeholder {
     margin-right: 10px;
 }
 
-button {
-    width: 10%;
-    height: 50px;
-    font-size: 18px;
+#buy-btn button {
+
+
     margin-left: 20px;
-    border-radius: 30px;
+    border-radius: 10px;
     background-color: #E3C062;
     display: inline-block;
     border: none;
@@ -213,9 +225,9 @@ button {
 .about_map {
     width: 100%;
     height: 440px;
-    margin-top: 60px;
+    /* margin-top: 60px; */
     display: flex;
-    margin: 50px auto;
+    margin: 50px 0px;
 
 }
 

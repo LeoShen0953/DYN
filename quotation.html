@@ -7,6 +7,9 @@
     <title>專人即時報價</title>
     <link rel="stylesheet" href="./css/quotation.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="./css/quotation.css">
+    <link rel="stylesheet" href="./css/rwd_common.css">
+    <link rel="stylesheet" href="./css/rwd_quotatiom.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300&family=Noto+Serif+TC:wght@300&display=swap"
         rel="stylesheet">
@@ -95,7 +98,7 @@
         <h1>CONTACT US</h1>
         <h1>聯絡我們</h1>
     </div>
-    <h3>對於我們有任何問題與報價需求，歡迎填寫表單與我們聯絡！也可直接加入我們官方LINE。@LEO</h3>
+    <h3 id="quote_h3">對於我們有任何問題與報價需求，歡迎填寫表單與我們聯絡！也可直接加入我們官方LINE。@LEO</h3>
 
     <div class="container">
         <div class="left-column">
@@ -115,12 +118,35 @@
     </div>
     <div class="btn">
 
-        <button>送出</button>
+        <button id="quo-btn">送出</button>
     </div>
+    <p id="feedback"></p>
     <footer>
         <p>本網站為緯育TibaMe【第89期】前端工程師專業技術養成班學員作品,僅供學習、展示之用途。</p>
     </footer>
+    <script src="./js/jquery-3.7.1.js"></script>
+    <script src="./js/jquery-ui.js"></script>
+    <script src="./js/rwd.js"></script>
+    <script>
 
+        $(function () {
+            $('#quo-btn').click(function () {
+                let name = $('.container textarea').val()
+
+                // $('#feedback').text(name)
+                // $(父).append(子)
+                $('#feedback').append(name + '<br>').css({
+                    'text-align': 'center',
+                    'border': '3px solid black',
+                    'font-size': '24px',
+                    'width': '50%',
+                    'margin': '0 auto'
+                })
+            })
+        });
+    </script>
+
+    </script>
 
 
 </body>

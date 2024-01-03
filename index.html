@@ -7,16 +7,18 @@
     <title>Design Your Name</title>
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="stylesheet" href="./css/rwd.css">
+    <link rel="stylesheet" href="./css/rwd_common.css">
+    <link rel="stylesheet" href="./css/rwd_index.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300&family=Noto+Serif+TC:wght@300&display=swap"
         rel="stylesheet">
+
 </head>
 
 <body>
     <!--   導覽列 --->
     <header class="top">
-        <i class="fa fa-bars" aria-hidden="true"></i>
+        <i class="fa fa-bars" aria-hidden="true" id="toggleMenu"></i>
         <div class="logo">
             <img src="./img/logo.png" alt="Logo">
         </div>
@@ -89,7 +91,7 @@
                 <img src="./img/hot1.png" alt="">
                 <div class="name_btn">
                     <h3>帆布袋(直式單面)</h3>
-                    <button>加入購物車</button>
+                    <div><button>加入購物車</button></div>
                 </div>
                 <p>尺寸:32X45cm尺寸</p>
             </li>
@@ -97,7 +99,7 @@
                 <img src="./img/hot2.png" alt="">
                 <div class="name_btn">
                     <h3>束口帆布袋(直式)</h3>
-                    <button>加入購物車</button>
+                    <div><button>加入購物車</button></div>
                 </div>
                 <p>尺寸:35X40cm</p>
             </li>
@@ -105,7 +107,7 @@
                 <img src="./img/hot3.png" alt="">
                 <div class="name_btn">
                     <h3>帆布袋(橫式單面)</h3>
-                    <button>加入購物車</button>
+                    <div><button>加入購物車</button></div>
                 </div>
                 <p>尺寸:32X45cm</p>
             </li>
@@ -113,7 +115,7 @@
                 <img src="./img/hot4.png" alt="">
                 <div class="name_btn">
                     <h3>帆布袋(直式兩用)</h3>
-                    <button>加入購物車</button>
+                    <div><button>加入購物車</button></div>
                 </div>
                 <p>尺寸:35X40cm</p>
             </li>
@@ -121,7 +123,7 @@
                 <img src="./img/hot5.png" alt="">
                 <div class="name_btn">
                     <h3>帆布袋(直式方形)</h3>
-                    <button>加入購物車</button>
+                    <div><button>加入購物車</button></div>
                 </div>
                 <p>尺寸:38X38cm</p>
             </li>
@@ -129,7 +131,7 @@
                 <img src="./img/hot6.png" alt="">
                 <div class="name_btn">
                     <h3>馬克杯</h3>
-                    <button>加入購物車</button>
+                    <div><button>加入購物車</button></div>
                 </div>
                 <p>容量:375ml</p>
             </li>
@@ -137,7 +139,7 @@
                 <img src="./img/hot7.png" alt="">
                 <div class="name_btn">
                     <h3>帆布袋(直式單面)</h3>
-                    <button>加入購物車</button>
+                    <div><button>加入購物車</button></div>
                 </div>
                 <p>尺寸:32X45cm</p>
             </li>
@@ -145,7 +147,7 @@
                 <img src="./img/hot8.png" alt="">
                 <div class="name_btn">
                     <h3>長T單面</h3>
-                    <button>加入購物車</button>
+                    <div><button>加入購物車</button></div>
                 </div>
                 <p>衣服尺寸:M/L/XL/2XL</p>
             </li>
@@ -198,10 +200,11 @@
     <footer>
         <p>本網站為緯育TibaMe【第89期】前端工程師專業技術養成班學員作品,僅供學習、展示之用途。</p>
     </footer>
-
     <script src="./js/jquery-3.7.1.js"></script>
     <script src="./js/jquery-ui.js"></script>
-    <script src="./js/rwd.js"></script>
+    <script src="./js/main.js"></script>
+
+
 </body>
 
 </html>

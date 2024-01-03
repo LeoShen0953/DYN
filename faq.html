@@ -14,6 +14,7 @@
 
 <body>
     <header class="top">
+        <i class="fa fa-bars" aria-hidden="true" id="toggleMenu"></i>
         <div class="logo">
             <a href="index.html" target="_index"><img src="./img/logo.png" alt="Logo">回首頁</a>
         </div>
@@ -73,7 +74,7 @@
     </div>
 
     <div class="qa">
-        <h3>Q:如何購物</h3>
+        <h3 id="qa1">Q:如何購物</h3>
         <p>1. 請先註冊力奧會員</p>
         <p>2. 選擇商品加入購物車</p>
         <p>3. 填寫訂購資訊</p>
@@ -82,7 +83,7 @@
         <p>6. 上傳商品檔案</p>
         <p>＊ 請注意上傳檔案後才會排入審稿流程及印製工作，請確實上傳檔案</p>
         <p>＊ 付款完成且上傳所有製作項目檔案，才算下單完成</p>
-        <h3>Q:請問每日審稿時間為何？</h3>
+        <h3 id="qa2">Q:請問每日審稿時間為何？</h3>
         <p>1.審查稿件時間：每週一～五上班日，上午11:00~下午17:00。</p>
         <p>2.完稿作業時間：每日17點後，為審稿人員處理當天已合格的訂單時段 (完稿及排單作業)。</p>
         <p>3.審稿順序說明：審單順序皆以 訂單付款後轉待審稿狀態，及客戶重新上傳稿件，系統會自動依時間排單，審稿人員會依排單順序依序審查。</p>
@@ -128,6 +129,21 @@
     <footer>
         <p>本網站為緯育TibaMe【第89期】前端工程師專業技術養成班學員作品,僅供學習、展示之用途。</p>
     </footer>
+    <script src="./js/jquery-3.7.1.js"></script>
+    <script src="./js/jquery-ui.js"></script>
+    <script src="./js/rwd.js"></script>
+    <script>
+        $(function () {
+            $('#qa1').addClass('bold').click(function () {
+                $(this).nextUntil('h3').toggle();
+            }).nextUntil('h3').hide();
+
+            $('#qa2').addClass('bold').click(function () {
+                $(this).nextUntil('h3').toggle();
+            }).nextUntil('h3').hide();
+        });
+    </script>
+
 </body>
 
 </html>

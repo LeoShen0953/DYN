@@ -12,9 +12,10 @@ body {
     justify-content: space-between;
     background-color: #F15A24;
 
-    padding: 10px;
+
     position: fixed;
     width: 100%;
+    box-sizing: border-box;
     z-index: 1;
 }
 
@@ -23,7 +24,8 @@ body {
 }
 
 .logo img {
-    width: 160px;
+    width: 120px;
+
     margin: 5px;
 }
 
@@ -159,6 +161,8 @@ body {
 }
 
 /*-----------首頁 熱門商品----------*/
+
+
 .hot {
     display: flex;
     margin: 50px auto;
@@ -185,7 +189,7 @@ body {
 .product {
     width: 95%;
     margin: 80px auto;
-    padding-left: 80px;
+    /* padding-left: 80px; */
 
 
 
@@ -235,10 +239,11 @@ body {
 }
 
 .product button {
-    border-radius: 20px;
+    border-radius: 10px;
     background-color: #E3C062;
     margin-top: 10px;
     border: none;
+    padding: 5px;
 }
 
 /*-----------首頁 折扣專區----------*/
@@ -267,9 +272,10 @@ body {
 
 .discount-image {
     display: block;
-    width: 800px;
+    max-width: 800px;
     height: 600px;
     margin: 0 auto;
+    width: 100%;
 }
 
 /*-----------首頁 關於力奧與地圖----------*/
