@@ -7,6 +7,8 @@
     <title>客服faq</title>
     <link rel="stylesheet" href="./css/faq.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="./css/rwd_common.css">
+    <link rel="stylesheet" href="./css/rwd_faq.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300&family=Noto+Serif+TC:wght@300&display=swap"
         rel="stylesheet">
@@ -16,7 +18,7 @@
     <header class="top">
         <i class="fa fa-bars" aria-hidden="true" id="toggleMenu"></i>
         <div class="logo">
-            <a href="index.html" target="_index"><img src="./img/logo.png" alt="Logo">回首頁</a>
+            <a href="index.html" target=""><img src="./img/logo.png" alt="Logo">回首頁</a>
         </div>
         <nav class="navbar">
             <ul>
@@ -75,19 +77,22 @@
 
     <div class="qa">
         <h3 id="qa1">Q:如何購物</h3>
-        <p>1. 請先註冊力奧會員</p>
-        <p>2. 選擇商品加入購物車</p>
-        <p>3. 填寫訂購資訊</p>
-        <p>4. 成立訂單</p>
-        <p>5. 訂單前往付款</p>
-        <p>6. 上傳商品檔案</p>
+        <ol type="1">
+            <li> 請先註冊力奧會員</li>
+            <li>選擇商品加入購物車</li>
+            <li>填寫訂購資訊</li>
+            <li>成立訂單</li>
+            <li>訂單前往付款</li>
+            <li>上傳商品檔案</li>
+        </ol>
         <p>＊ 請注意上傳檔案後才會排入審稿流程及印製工作，請確實上傳檔案</p>
         <p>＊ 付款完成且上傳所有製作項目檔案，才算下單完成</p>
         <h3 id="qa2">Q:請問每日審稿時間為何？</h3>
-        <p>1.審查稿件時間：每週一～五上班日，上午11:00~下午17:00。</p>
-        <p>2.完稿作業時間：每日17點後，為審稿人員處理當天已合格的訂單時段 (完稿及排單作業)。</p>
-        <p>3.審稿順序說明：審單順序皆以 訂單付款後轉待審稿狀態，及客戶重新上傳稿件，系統會自動依時間排單，審稿人員會依排單順序依序審查。</p>
-
+        <ol type="1">
+            <li>審查稿件時間：每週一～五上班日，上午11:00~下午17:00。</li>
+            <li>完稿作業時間：每日17點後，為審稿人員處理當天已合格的訂單時段 (完稿及排單作業)。</li>
+            <li>審稿順序說明：審單順序皆以 訂單付款後轉待審稿狀態，及客戶重新上傳稿件，系統會自動依時間排單，審稿人員會依排單順序依序審查。</li>
+        </ol>
     </div>
 
     <!--   關於力奧與地圖 --->
@@ -131,18 +136,7 @@
     </footer>
     <script src="./js/jquery-3.7.1.js"></script>
     <script src="./js/jquery-ui.js"></script>
-    <script src="./js/rwd.js"></script>
-    <script>
-        $(function () {
-            $('#qa1').addClass('bold').click(function () {
-                $(this).nextUntil('h3').toggle();
-            }).nextUntil('h3').hide();
-
-            $('#qa2').addClass('bold').click(function () {
-                $(this).nextUntil('h3').toggle();
-            }).nextUntil('h3').hide();
-        });
-    </script>
+    <script src="./js/main.js"></script>
 
 </body>
 

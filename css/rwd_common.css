@@ -342,10 +342,7 @@ html {
         display: none;
     }
 
-    .discount-image {
-        width: 90vw;
-        background-size: cover;
-    }
+
 
     .about-content-left p {
         font-size: 1.4rem;

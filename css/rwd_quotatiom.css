@@ -1,6 +1,6 @@
 @media screen and (max-width: 1210px) {
 
-    /*---quotation--*/
+
     .process {
         width: 80%;
         margin-left: 20px;
@@ -12,7 +12,7 @@
     }
 
     .connection h1 {
-        font-size: 3rem;
+        font-size: 2.4rem;
     }
 
     .container {
@@ -26,18 +26,26 @@
 }
 
 @media screen and (max-width: 1140px) {
+    .connection h1 {
+        font: 2rem;
+        margin-right: 10px;
+    }
 
     .connection p {
-        font-size: 2rem;
+        font-size: 1.8rem;
 
     }
 }
 
 @media screen and (max-width: 1036px) {
 
-    /*---quote---*/
+
     .quote p:first-child {
         display: none;
+    }
+
+    .process ul li p {
+        font-size: 1.8em;
     }
 
     .info p:first-child {
@@ -65,14 +73,18 @@
     }
 
     .people .connection ul li h1 {
-        font-size: 4rem;
+        font-size: 3rem;
+    }
+
+    .connection li:last-of-type {
+        margin-top: 20px;
     }
 
     .people .connection ul li p {
-        text-align: justify;
+        text-align: center;
         letter-spacing: 4px;
-        font-size: 3rem;
-        margin-left: 50px;
+        font-size: 2.8rem;
+
     }
 
     .connection li img {
@@ -86,5 +98,170 @@
 
     .container {
         width: 70%;
+    }
+}
+
+@media screen and (max-width: 964px) {
+    .process {
+        width: 90%;
+    }
+
+    .people .connection ul li p {
+        margin-left: 0;
+        font-size: 2.4rem;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 868px) {
+    .process ul li img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .process {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+        display: block;
+
+    }
+
+    .wrapper ul {
+        width: 100%;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+        padding: 0 10px;
+        margin: 0 auto;
+    }
+
+    .people .connection ul li p {
+        font-size: 2rem;
+        letter-spacing: 1px;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+}
+
+@media screen and (max-width: 649px) {
+    .wrapper .process ul {
+        font-display: flex;
+        flex-direction: column;
+    }
+
+    .wrapper .process ul li {
+        width: 300px;
+        height: auto;
+
+        margin-top: 20px;
+
+    }
+
+    .people .connection ul li {
+        margin: 20px 10px 0px 0px;
+    }
+
+    .process ul li img {
+        width: 250px;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .wrapper ul li::after {
+        display: none;
+    }
+
+    .wrapper ul li::before {
+        content: '';
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translate(-50%, 0);
+        width: 0;
+        height: 0;
+        border-top: 30px solid #F15A24;
+        border-bottom: 10px solid transparent;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        margin-left: -10px;
+        margin-top: 20px;
+    }
+
+    .wrapper .process ul li:nth-of-type(5)::before {
+        display: none;
+    }
+
+    .wrapper .process ul li p {
+        font-size: 2.4rem;
+
+    }
+
+    .info {
+        margin: 40px auto;
+    }
+
+    .people {
+        width: 100%;
+
+    }
+
+    .people .connection {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .connection li img {
+        width: 120px;
+        height: 120px;
+        margin-right: 20px;
+    }
+
+    .people .connection ul li {
+        padding: 0;
+    }
+
+    .left-column {
+        padding: 10px;
+
+    }
+
+    .right-column {
+        padding: 10px;
+
+    }
+
+    button {
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 545px) {
+    .people .connection ul li p {
+        font-size: 1.6rem;
+        line-height: 0.8;
+    }
+
+    .left-column {
+
+        padding: 5px;
+    }
+
+    .right-column {
+        padding: 5px;
+    }
+
+    .left-column input {
+        margin-bottom: 20px;
+        font-size: 1.8rem;
+    }
+
+    .right-column input {
+
+        margin-bottom: 20px;
+        font-size: 1.8rem;
     }
 }

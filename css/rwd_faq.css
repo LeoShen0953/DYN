@@ -1,0 +1,45 @@
+@media screen and (max-width:1077px) {
+    .wrapper .faq {
+        width: 100%;
+    }
+
+    .wrapper .faq ul {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .faq li {
+        width: 100%;
+        margin: 10px;
+    }
+
+    .faq_detail {
+        width: 100%;
+    }
+
+    .faq_detail ul {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width:945px) {
+    .faq a {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .logo a {
+        font-size: 0;
+    }
+
+    .qa h3 {
+        margin: 10px;
+    }
+
+    .qa li {
+        margin: 13px;
+    }
+}

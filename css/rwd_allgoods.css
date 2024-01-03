@@ -12,7 +12,7 @@
     }
 
     .wrapper li .right input {
-        width: 300px;
+        width: 250px;
         height: 50px;
 
     }
@@ -31,6 +31,7 @@
     .wrapper .left img {
         width: 250px;
         height: 250px;
+        margin: 0 auto;
 
     }
 
@@ -99,8 +100,8 @@
 
 
     body input {
-        width: 20vw;
-        height: 8vh;
+        width: 150px;
+        height: 40px;
 
     }
 
@@ -110,6 +111,12 @@
 
     .wrapper .search h1 {
         font-size: 2.4rem;
+        width: 100%;
+    }
+
+    .wrapper .search a {
+        font-size: 2rem;
+        width: 100%;
     }
 
     .goods li {
@@ -177,11 +184,11 @@
     }
 
     .wrapper .search h1 {
-        font-size: 2rem;
+        font-size: 2.4rem;
     }
 
     .wrapper .search a {
-        width: 80%;
+
         font-size: 1.8rem;
     }
 
@@ -191,17 +198,13 @@
     }
 
 
-
-    #buy-btn button {
-        width: 20vw;
-        height: 8vh;
-    }
 }
+
 
 @media screen and (max-width:545px) {
     body input {
-        width: 20vw;
-        height: 6vh;
+        width: 130px;
+        height: 30px;
     }
 
     .wrapper .left img {
@@ -214,11 +217,13 @@
 
 
     .wrapper .search h1 {
-        font-size: 1.6rem;
+        font-size: 2.4rem;
+        width: 100%;
     }
 
     .wrapper .search a {
-        font-size: 1rem;
+        font-size: 1.8rem;
+        width: 100%;
     }
 
     .wrapper .left h3 {
@@ -373,5 +378,10 @@
 
     .right select {
         font-size: 1.6rem;
+    }
+
+    #buy-btn {
+        margin-right: 0px;
+        padding: 10px;
     }
 }

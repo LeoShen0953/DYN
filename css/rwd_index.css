@@ -37,6 +37,7 @@
     .product button {
         padding: 5px;
         margin-top: 5px;
+        font-size: 1rem;
     }
 }
 
@@ -55,7 +56,7 @@
     .product button {
         padding: 5px;
         margin-top: 5px;
-        font-size: 1.4rem;
+        font-size: 1.2rem;
     }
 
     .product .name_btn h3 {
@@ -116,9 +117,6 @@
 
 
 
-    .discount-image {
-        width: 90%;
-    }
 }
 
 @media screen and (max-width:676px) {

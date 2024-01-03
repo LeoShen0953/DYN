@@ -18,6 +18,10 @@ body {
     z-index: 1;
 }
 
+.top .fa {
+    display: none;
+}
+
 .logo img {
     width: 160px;
 }
@@ -25,6 +29,7 @@ body {
 .logo a {
     text-decoration: none;
     color: white;
+    font-size: 0;
 }
 
 .navbar ul {
@@ -133,8 +138,8 @@ h1 {
 .faq_detail a {
     color: black;
     text-decoration: none;
-    width: 120px;
-    font-size: 18px;
+    width: 100%;
+    font-size: 2rem;
 }
 
 .wrapper img {
@@ -147,7 +152,7 @@ h1 {
 
 .qa {
     width: 90%;
-    height: 560px;
+    padding: 10px;
     background-color: #F15A24;
     margin: 0 auto;
     margin-top: 50px;
@@ -160,10 +165,20 @@ h1 {
     padding-top: 40px;
 }
 
-.qa p {
+.qa ol {
     font-size: 22px;
     color: white;
     margin: 5px 0px 5px 40px;
+    list-style-type: decimal;
+}
+
+.qa p {
+    font-size: 22px;
+    height: 24px;
+    line-height: 24px;
+    color: white;
+    margin: 30px 0px 30px 10px;
+
 }
 
 .bold {
@@ -171,6 +186,8 @@ h1 {
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+
 
 /*-----------首頁 關於力奧與地圖----------*/
 .about_map {
